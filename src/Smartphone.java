@@ -45,4 +45,11 @@ public class Smartphone implements Camera, AudioPlayer, Comparable<Smartphone> {
             return 0;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "serialNumber=" + serialNumber +
+                '}';
+    }
 }
